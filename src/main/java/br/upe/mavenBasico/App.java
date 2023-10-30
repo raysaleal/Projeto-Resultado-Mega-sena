@@ -1,13 +1,11 @@
 package br.upe.mavenBasico;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import br.upe.application.ImprimirResultado;
+
+public class App {
+    public static void main( String[] args ){
+        ImprimirResultado imprimirResultado = new ImprimirResultado();
+
+        imprimirResultado.imprimeResultado();
     }
 }
